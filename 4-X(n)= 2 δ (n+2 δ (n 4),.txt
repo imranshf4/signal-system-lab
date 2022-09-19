@@ -1,0 +1,15 @@
+clc;
+clear all;
+close all;
+
+n=-5:5;
+n1=-2:5;
+n2=-5:4;
+y1=(n==-2);
+y2=(n==4);
+y3=2*y1-y2 ;
+subplot(4,1,1);
+stem(n,y3);
+title("The desired sequence ");
+xlabel("n---");
+ylabel("amplitude");
